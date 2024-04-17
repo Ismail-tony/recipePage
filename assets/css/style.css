@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'Young-serif', sans-serif;
+    font-weight: 400;
+    src: url(../fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit', sans-serif;
+    src: url(../fonts/outfit/static/Outfit-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit', sans-serif;
+    src: url(../fonts/outfit/static/Outfit-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit', sans-serif;
+    src: url(../fonts/outfit/static/Outfit-ExtraBold.ttf);
+}
+
 :root {
     /* Primary */
     --Nutmeg: hsl(14, 45%, 36%);
