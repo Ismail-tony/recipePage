@@ -1,9 +1,7 @@
+/* General Styling */
 :root {
-    /* Primary */
     --Nutmeg: hsl(14, 45%, 36%);
     --DarkRaspberry: hsl(332, 51%, 32%);
-
-    /* Neutral */
     --White: hsl(0, 0%, 100%);
     --RoseWhite: hsl(330, 100%, 98%);
     --Eggshell: hsl(30, 54%, 90%);
@@ -25,6 +23,7 @@ html {
 
 body {
     min-height: 100vh;
+    margin: 7.68em 22em;
     background-color: var(--Eggshell);
     display: flex;
     flex-direction: column;
@@ -32,15 +31,37 @@ body {
     align-items: center;
 }
 
-main {
+.card-container {
     background-color: var(--White);
-    padding: 2rem;
+    width: 736px;
+    height: 1708px;
+    padding: 2.5em;
+    border-radius: 0.75em;
 }
 
-img {
+figure img {
+    width: 656px;
+    height: 300px;
     border-radius: 1em;
+    margin-bottom: 2.5em;
 }
 
 h1, h2 {
     font-family: 'Young-serif';
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.6em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 150%;
+}
+
+
+
+table {
+    max-width: 90%;
 }
